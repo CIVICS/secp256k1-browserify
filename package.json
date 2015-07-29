@@ -1,0 +1,26 @@
+{
+  "name": "browserify-secp256k1",
+  "version": "0.0.0",
+  "description": "secp256k1-node compatability for browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanderer/browserify-secp256k1.git"
+  },
+  "keywords": [
+    "secp256k1",
+    "elliptic",
+    "ecdsa",
+    "ec",
+    "browserify"
+  ],
+  "author": "mjbecze <mjbecze@gmail.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/wanderer/browserify-secp256k1/issues"
+  },
+  "homepage": "https://github.com/wanderer/browserify-secp256k1#readme"
+}
