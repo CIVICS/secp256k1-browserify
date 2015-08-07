@@ -33,27 +33,6 @@ function parseSig(sig) {
 }
 
 /**
- * Verify an ECDSA secret key.
- * @method verifySecetKey
- * @param {Buffer} sercetKey the sercet Key to verify
- * @return {Boolean}  `true` if sercet key is valid, `false` sercet key is invalid
- */
-exports.verifySecretKey = function (sercetKey) {
-  // return Boolean(secpNode.secKeyVerify(sercetKey))
-}
-
-/**
- * Verify an ECDSA public key.
- * @method verifyPublicKey
- * @param {Buffer} publicKey the public Key to verify
- * @return {Boolean} `true` if public key is valid, `false` sercet key is invalid
- */
-exports.verifyPublicKey = function (publicKey) {
-  // return Boolean(secpNode.pubKeyVerify(publicKey))
-}
-
-
-/**
  * Create an ECDSA signature.
  * @method sign
  * @param  {Buffer} secretkey a 32-byte secret key (assumed to be valid)
@@ -82,8 +61,6 @@ exports.sign = function (msg, secretKey, DER, cb) {
   else
     return result
 }
-
-
 
 /**
  * Verify an ECDSA signature.
