@@ -1,10 +1,10 @@
 {
-  "name": "browserify-secp256k1",
+  "name": "secp256k1-browserify",
   "version": "0.0.0",
   "description": "secp256k1-node compatability for browserify",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./tests"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,20 @@
     "browserify"
   ],
   "author": "mjbecze <mjbecze@gmail.com>",
-  "license": "GPL-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wanderer/browserify-secp256k1/issues"
   },
-  "homepage": "https://github.com/wanderer/browserify-secp256k1#readme"
+  "homepage": "https://github.com/wanderer/browserify-secp256k1#readme",
+  "dependencies": {
+    "bn.js": "^3.1.1",
+    "elliptic": "^5.1.0"
+  },
+  "devDependencies": {
+    "bigi": "^1.4.0",
+    "bn.js": "^3.1.1",
+    "coinkey": "^1.4.0",
+    "secp256k1": "1.1.0",
+    "secure-random": "^1.1.1"
+  }
 }
